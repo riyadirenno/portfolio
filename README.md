@@ -1,2 +1,2 @@
-# riyadirenno.github.io
+# riyadirenno
 Renno's Personal Website
