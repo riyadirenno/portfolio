@@ -1,0 +1,173 @@
+@media (max-width: 650px) {
+  /* Typography */
+  .text-26px {
+    font-size: 20px !important;
+    line-height: 1.25; }
+  /* Navigation Settings */
+  .time-dundalk {
+    display: none; }
+  .time-jakarta {
+    display: none; }
+  .nav-work {
+    display: none; }
+  .nav-about {
+    display: none; }
+  .nav-contact {
+    display: none; }
+  .navigation-bar {
+    padding-top: 43px !important;
+    padding-left: 43px !important;
+    padding-right: 43px !important; }
+  /* Intro Index Section */
+  .intro-index {
+    padding-top: 63px !important;
+    padding-left: 43px !important;
+    padding-right: 43px !important; }
+  /* Focus Index Section */
+  .focus-index {
+    padding-top: 63px !important;
+    padding-left: 43px !important;
+    padding-right: 43px !important; }
+  /* Project Index Section */
+  /* About Index Section */
+  .about-index {
+    padding-top: 63px !important;
+    padding-left: 43px !important;
+    padding-right: 43px !important; }
+  /* Documentation Index Section */
+  .documentation-index {
+    padding-top: 63px !important;
+    padding-left: 43px !important;
+    padding-right: 43px !important; }
+  /* Contact Index Section */
+  .contact-index {
+    padding-top: 63px !important;
+    padding-left: 43px !important;
+    padding-right: 43px !important; }
+  /* Footer */
+  .footer {
+    padding-top: 43px !important;
+    padding-left: 43px !important;
+    padding-right: 43px !important;
+    padding-bottom: 43px !important;
+    text-align: center !important; }
+  .footer-anchor {
+    display: none; }
+  .scroll-top-right {
+    text-align: center !important; } }
+
+@media (min-width: 652px) and (max-width: 768px) {
+  .work-content-mobile {
+    padding-left: 86px !important;
+    padding-right: 86px !important; } }
+
+body {
+  background-color: black;
+  font-family: 'Helvetica-Neue', Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: white; }
+
+img {
+  width: 100%; }
+
+a {
+  color: white;
+  text-decoration: underline;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; }
+
+a:hover {
+  color: #6DC4CD; }
+
+.text-emphasis {
+  font-weight: 525; }
+
+.text-light {
+  font-weight: 300; }
+
+.text-26px {
+  font-size: 24px;
+  line-height: 1.25; }
+
+.span-content {
+  font-weight: 300; }
+
+.container-fluid {
+  padding: 0; }
+
+.focus-mobile {
+  display: true; }
+
+/* Navigation Bar */
+.navigation-bar {
+  padding-top: 86px;
+  padding-left: 86px;
+  padding-right: 86px; }
+
+.navigation-bar a {
+  text-decoration: none; }
+
+/* Intro Index Section */
+.intro-index {
+  padding-top: 166px;
+  padding-left: 86px;
+  padding-right: 86px; }
+
+/* Focus Index Section */
+.focus-index {
+  padding-top: 64.5px;
+  padding-left: 86px;
+  padding-right: 86px; }
+
+/* Selected Work Section */
+.work-index {
+  padding-left: 86px;
+  padding-right: 86px; }
+
+.work-navigation {
+  z-index: 1;
+  float: left;
+  height: 150px;
+  padding-top: 64.5px;
+  padding-bottom: 170px; }
+
+.work-content {
+  float: right; }
+
+.work-content-mobile {
+  padding-left: 43px;
+  padding-right: 43px;
+  padding-top: 63px; }
+
+.project-section {
+  padding-top: 64.5px; }
+
+/* About Me Section */
+.about-index {
+  padding-top: 64.5px;
+  padding-left: 86px;
+  padding-right: 86px; }
+
+/* Documentation Section */
+.documentation-index {
+  padding-top: 64.5px;
+  padding-left: 86px;
+  padding-right: 86px; }
+
+/* Contact Section */
+.contact-index {
+  padding-top: 64.5px;
+  padding-left: 86px;
+  padding-right: 86px; }
+
+/* Footer Section */
+.footer {
+  padding-bottom: 86px;
+  padding-top: 166px;
+  padding-left: 86px;
+  padding-right: 86px; }
+
+.scroll-top-right {
+  text-align: right; }
