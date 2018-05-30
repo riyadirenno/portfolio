@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Less than 3 - Renno's Assignment">
+  <meta name="keywords" content="renno riyadi website dating assignment dkit dundalk ireland">
+  <meta name="author" content="Renno Riyadi">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Less than 3 - Sign Up</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+
+</head>
+
+<body>
+
+    <div>
+      <div>
+        <!-- KEEP THIS BLANK FOR FORMATTING -->
+      <div>
+    </div>
+
+    <div id="black" class="navigation">
+      <div class="container">
+        <nav class="navbar navbar-toggleable-md navbar-light">
+
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <a class="navbar-brand navbar-brand-black" href="index.html">Less than 3</a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <a class="nav-link" href="brickmortar.php">Brick & Mortar</a>
+              <a class="nav-link" href="aboutus.html">About Us</a>
+              <a class="nav-link" href="contactus.php">Contact Us</a>
+              <a class="nav-link nav-button" href="login.html">Your Account</a>
+            </ul>
+          </div>
+
+        </nav>
+      </div>
+    </div>
+
+    <div class="register">
+      <div class="container">
+
+          <div class="content-index text-center">
+
+          <p class="login-title">Register</p>
+
+          <div class="col-md-8 offset-md-2 text-center">
+            <form action="signup-success.html">
+              <div class="form-group">
+                <input type="name" class="form-control" aria-describedby="emailHelp" placeholder="First Name" title="First Name" required/>
+              </div>
+
+              <div class="padding-form"></div>
+
+              <div class="form-group">
+                <input type="name" class="form-control" aria-describedby="emailHelp" placeholder="Last Name" title="Last Name" required/>
+              </div>
+
+              <div class="padding-form"></div>
+
+              <div class="form-group">
+                <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Your Email Address" title="Your Email Address Must Contain an @ Symbol and a Domain Name in the End" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
+              </div>
+
+              <div class="padding-form"></div>
+
+              <div class="form-group">
+                <input id="password" type="password" class="form-control" placeholder="Password - Your Password Must Contain at Least 8 Characters" pattern=".{8,}" title="Your Password Must Contain at Least 8 Characters" required/>
+              </div>
+
+              <div class="padding-form"></div>
+
+              <div class="form-group">
+                <input id="confirm_password" type="password" class="form-control" placeholder="Confirm Your Password" title="Confirm Your Password" required/>
+              </div>
+
+              <div class="padding-form"></div>
+
+              <p class="small-register">Your details are safe with us. <a href="privacy.html">Click Here</a> to learn more about our thoughts on privacy.</p>
+
+              <input class="contact-send" type="submit" value="Register Your Account"/>
+
+            </form>
+
+          </div>
+
+          </div>
+
+
+      </div>
+    </div>
+
+  <footer>
+  <div class="footer-content container">
+    <a href="index.html" class="footer-logo">Less than 3</a>
+
+    <div class="footer-nav">
+      <ul class="list-inline">
+          <a class="list-inline-item" href="brickmortar.php">Brick & Mortar</a>
+          <a class="list-inline-item" href="aboutus.html">About Us</a>
+          <a class="list-inline-item" href="contactus.php">Contact Us</a>
+          <a class="list-inline-item" href="login.html">Your Account</a>
+      </ul>
+    </div>
+
+    <div class="footer-hook">
+      <p>We are a group of people whom are passionate with true love.</p>
+      <p>No frills, Less than 3</p>
+    </div>
+
+    <div class="footer-small-text">
+      <p>Made with love by <a href="http://www.riyadirenno.com"> Renno Riyadi</a></p>
+      <p>For Educational Purposes Only - <a href="https://www.dkit.ie"> Dundalk Institute of Technology</a>
+    </div>
+  <div>
+</footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min_.js"></script>
+    <script>new WOW().init();</script>
+    <script>
+    $('a[href*="#"]').on('click', function (e) {
+	    e.preventDefault();
+
+	    $('html, body').animate({
+		  scrollTop: $($(this).attr('href')).offset().top
+	    }, 500, 'linear');
+    });
+  </script>
+  <script>
+  var password = document.getElementById("password")
+    , confirm_password = document.getElementById("confirm_password");
+
+    function validatePassword(){
+      if(password.value != confirm_password.value) {
+        confirm_password.setCustomValidity("Your password did not match, please try again.");
+      } else {
+        confirm_password.setCustomValidity('');
+      }
+    }
+  password.onchange = validatePassword;
+  confirm_password.onkeyup = validatePassword;
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,253 @@
+@import "colours.scss";
+@import "typography.scss";
+@import "buttons.scss";
+@import "mobile.scss";
+
+/* Site Wide Modifications */
+
+.padding-form {
+  padding-bottom: 31px;
+}
+
+/* Navigation */
+
+.navigation {
+  padding-top: 40px;
+}
+
+/* Footer */
+
+footer {
+  height: 450px;
+}
+
+.footer-nav {
+  padding-bottom: 100px;
+}
+
+.footer-content{
+  padding-top: 50px;
+}
+
+/* Sign In */
+
+.login {
+  height: 640.5px;
+  background-color: white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.register {
+  height: 850px;
+  background-color: white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.privacy {
+  margin-top: 31px;
+}
+
+/* Register */
+
+/* Forms */
+
+/* Brick & Mortar */
+
+.event-1 {
+  height: 275px;
+  background-image: url("../img/events-photo/photo-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:275px;
+  border: 1px $text-light-gray solid;
+}
+
+.event-2 {
+  height: 275px;
+  background-image: url("../img/events-photo/photo-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:275px;
+  border: 1px $text-light-gray solid;
+}
+
+.event-text {
+  border: 1px $text-light-gray solid;
+  border-top: none;
+  line-height: 50%;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 31px;
+}
+
+
+/* Hero Modifications */
+
+.hero-index {
+  height: 750px;
+  background-image: url("../img/hero-index.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  height: 640.5px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.hero-about {
+  height: 750px;
+  background-image: url("../img/hero-about.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.hero-bam {
+  height: 750px;
+  background-image: url("../img/hero-bam.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.hero-contact {
+  height: 750px;
+  background-image: url("../img/hero-contact.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Index - About */
+
+.about-index {
+  height: 425px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Index - How it Works */
+
+.hiw-index {
+  height: 550px;
+  background-image: url("../img/hiw-index.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.hiw-top {
+  padding-bottom: 30px;
+}
+
+/* Index - Testimonials */
+
+.testi-index {
+  height: 425px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Index - CTA */
+
+.cta-index {
+  height: 425px;
+  background-image: url("../img/cta-index.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.cta-button {
+  padding-bottom: 40px;
+}
+
+/* About Page */
+
+.about-content-here {
+  padding-top: 100px;
+  padding-bottom: 31px;
+}
+
+.photo-box {
+  height: 100px;
+  border: 1px $text-light-gray solid;
+  border-top: none;
+  margin-bottom: 63px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.photo-box p {
+  margin: 0;
+}
+
+.photo-1 {
+  height:275px;
+  border: 1px $text-light-gray solid;
+  background-image: url("../img/about-photo/photo-1.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+
+.photo-2 {
+  height:275px;
+  border: 1px $text-light-gray solid;
+  background-image: url("../img/about-photo/photo-2.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+
+.photo-3 {
+  height:275px;
+  border: 1px $text-light-gray solid;
+  background-image: url("../img/about-photo/photo-3.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+
+
+.photo-4 {
+  height:275px;
+  border: 1px $text-light-gray solid;
+  background-image: url("../img/about-photo/photo-4.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+
+/* Contact Page */
+
+.small-contact p {
+  margin: 0;
+}

@@ -1,0 +1,419 @@
+/* Site Wide */
+
+body {
+  font-family: 'Nunito' !important;
+}
+
+/* Footer */
+
+.footer-logo {
+  font-size: 30px;
+  font-family: 'Nunito';
+  font-weight: 400;
+  color: $text-dark-gray;
+  transition: all 0.5s ease 0s;
+}
+
+.footer-logo:hover{
+  text-decoration: none;
+  color: $renno-blue;
+}
+
+.footer-hook {
+  font-size: 15px;
+  font-family: 'Nunito';
+  font-weight: 300;
+  line-height: 50%;
+  padding-bottom: 50px;
+}
+
+.footer-small-text {
+  font-size: 10px;
+  font-family: 'Nunito';
+  font-weight: 300;
+  line-height: 10%;
+  color: $text-light-gray;
+}
+
+.footer-small-text a {
+  color: $text-dark-gray;
+  transition: all 0.5s ease 0s;
+}
+
+.footer-small-text a:hover {
+  color: $renno-blue;
+}
+
+.footer-nav a {
+  font-size: 17.5px;
+  color: $text-dark-gray;
+  font-family: 'Nunito';
+  font-weight: 400;
+  padding-right: 50px;
+  padding-top: 20px;
+  transition: all 0.5s ease 0s;
+}
+
+.footer-nav a:hover {
+  color: $renno-blue;
+  text-decoration: none;
+}
+
+/* Navigation */
+
+.navbar-brand {
+  color: $text-white !important;
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  transition: all 0.5s ease 0s;
+}
+
+.navbar-brand:hover {
+  color: $renno-blue !important;
+}
+
+.nav-link {
+  color: $text-white !important;
+  font-size: 15px !important;
+  font-weight: 300 !important;
+  transition: all 0.5s ease 0s;
+  margin-left: 50px;
+}
+
+.nav-link:hover {
+  color: $renno-blue !important;
+}
+
+#black .navbar-brand {
+  color: $text-dark-gray !important;
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  transition: all 0.5s ease 0s;
+}
+
+#black .navbar-brand:hover {
+  color: $renno-blue !important;
+}
+
+#black .nav-link {
+  color: $text-dark-gray !important;
+  font-size: 15px !important;
+  font-weight: 300 !important;
+  transition: all 0.5s ease 0s;
+  margin-left: 50px;
+}
+
+#black .nav-link:hover {
+  color: $renno-blue !important;
+}
+
+/* Hero */
+
+.hero-h1 {
+  font-size: 55px;
+  font-weight: 400;
+  color: $text-white;
+  line-height: 50px;
+}
+
+.hero-h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: $text-white;
+  line-height: 25px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.hero-mini {
+  font-size: 10px;
+  color: $text-white;
+  font-weight: 300;
+  padding-top: 25px;
+}
+
+/* Index - About */
+
+.about-index-content {
+  font-size: 15px;
+  color: $text-dark-gray;
+  font-weight: 300;
+}
+
+.about-index-content a {
+  color: $text-light-gray;
+  text-decoration: underline;
+  transition: all 0.5s ease 0s;
+}
+
+.about-index-content a:hover {
+  color: $renno-blue;
+}
+
+/* Index - HIW */
+
+.hiw-index {
+  color: $text-white;
+}
+
+.hiw-small {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.hiw-h1 {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.hiw-h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Index - Testimonials */
+
+.testi-small {
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+}
+
+.testi-h1 {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+/* Index - CTA */
+
+.cta-h1 {
+  font-size: 30px;
+  font-family: 'Nunito';
+  font-weight: 300;
+  line-height: 80%;
+  color: $text-white;
+}
+
+/* About Page */
+
+.about-h1 {
+  font-size: 25px;
+  font-weight: 300;
+  padding-bottom: 31px;
+  margin: 0;
+}
+
+.about-gray-h1 {
+  font-size: 17.5px;
+  font-weight: 300;
+  color: $text-light-gray;
+  padding-bottom: 62px;
+  margin: 0;
+}
+
+.about-gray-h1 a {
+  color: $text-light-gray;
+  text-decoration: underline;
+  transition: all 0.5s ease 0s;
+}
+
+.about-gray-h1 a:hover {
+  color: $renno-blue;
+  text-decoration: underline;
+  transition: all 0.5s ease 0s;
+}
+
+.about-dark-gray-h1 {
+  font-size: 17.5px;
+  font-weight: 300;
+  color: $text-dark-gray;
+  padding-bottom: 62px;
+  margin: 0;
+}
+
+.photo-name {
+  font-weight: 400;
+}
+
+.photo-position {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+/* Contact Page */
+
+.small-contact {
+  font-size: 15px;
+  color: $text-light-gray;
+  font-weight: 300;
+  padding-top: 62px;
+}
+
+.small-contact a {
+  color: $text-light-gray;
+  text-decoration: underline;
+  transition: all 0.5s ease 0s;
+}
+
+.small-contact a:hover {
+  color: $renno-blue;
+}
+
+/* Login */
+
+.login-title {
+  font-weight: 400;
+  font-size: 25px;
+  padding-bottom: 31px;
+}
+
+.login-title-2 {
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0;
+}
+
+.login-button {
+  font-weight: 300;
+  color: $text-light-gray;
+  text-decoration: underline;
+  transition: all 0.5s ease 0s;
+  margin-top: 31px;
+}
+
+.login-button:hover {
+  color: $renno-blue
+}
+
+.small-login {
+  font-weight: 300;
+  color: $text-light-gray;
+  font-size: 10px;
+  padding-top: 31px;
+}
+
+.small-login a {
+  font-weight: 300;
+  color: $text-light-gray;
+  font-size: 10px;
+  transition: all 0.5s ease 0s;
+  text-decoration: underline;
+}
+
+.small-login a:hover {
+  color: $renno-blue
+}
+
+.small-register {
+  font-weight: 300;
+  color: $text-light-gray;
+  font-size: 10px;
+  padding-bottom: 31px;
+}
+
+.small-register a {
+  font-weight: 300;
+  color: $text-light-gray;
+  font-size: 10px;
+  transition: all 0.5s ease 0s;
+  text-decoration: underline;
+}
+
+.small-register a:hover {
+  color: $renno-blue
+}
+
+span {
+  color: $renno-blue;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+span a {
+  text-decoration: underline;
+}
+
+/* Brick & Mortar */
+
+.event-title {
+  font-weight: 400;
+}
+
+.event-whereabouts {
+  font-weight: 300;
+}
+
+.event-whereabouts a {
+  color: $text-dark-gray;
+  transition: all 0.5s ease 0s;
+  text-decoration: underline;
+}
+
+.event-whereabouts a:hover {
+  color: $renno-blue;
+}
+
+.event-organize {
+  font-weight: 300;
+  font-size: 12.5px;
+  padding-top: 11px;
+  padding-bottom: 5px;
+  color: $text-light-gray;
+}
+
+.event-organize a {
+  color: $text-light-gray;
+  transition: all 0.5s ease 0s;
+  text-decoration: underline;
+}
+
+.event-organize a:hover {
+  color: $renno-blue
+}
+
+.error-content {
+  weight: 300;
+  padding-top: 63px;
+  padding-bottom: 63px;
+  color: $text-light-gray;
+  font-size: 15px;
+}
+
+.bold {
+  font-weight: 400;
+  color: $text-dark-gray;
+  padding-bottom: 0 !important;
+}
+
+.error-content a {
+  color: $text-dark-gray;
+  transition: all 0.5s ease 0s;
+  text-decoration: underline;
+}
+
+.error-content a:hover {
+  color: $renno-blue;
+}
+
+.privacy-light {
+  font-weight: 300;
+}
+
+.privacy-bold {
+  font-weight: 400;
+}
+
+.privacy-light a {
+  color: $text-dark-gray;
+  text-decoration: underline;
+  transition: all 0.5s ease 0s;
+}
+
+.privacy-light a:hover {
+  color: $renno-blue;
+}
