@@ -106,8 +106,8 @@ a:hover {
   padding-left: 86px;
   padding-right: 86px; }
 
-.navigation-bar a {
-  text-decoration: none; }
+iframe {
+  margin-left: -1px; }
 
 /* Intro Index Section */
 .intro-index {
