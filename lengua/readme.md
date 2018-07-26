@@ -1,1 +1,1 @@
-This is a space tp host host for all Lengua Web Based Projects.
+This is a space to host all Lengua Web Based Projects.
