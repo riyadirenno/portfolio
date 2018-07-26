@@ -1,0 +1,469 @@
+body {
+  font-family: 'Nunito';
+  font-weight: 300;
+}
+
+.image-hundred-padding {
+  width: 100%;
+  padding-bottom: 33px;
+}
+
+.image-hundred img {
+  width: 100%;
+}
+
+.small-text {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.big-text {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.big-text-thin {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.padding-45 {
+  padding-top: 45px;
+}
+
+.padding-45 p {
+  font-weight: 300;
+}
+
+.service-link {
+  padding-top: 33px;
+  font-weight: 300;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.service-link a {
+  color: white;
+}
+
+.nav-services a {
+  color: white;
+  text-decoration: underline;
+  transition: all 0.5s ease 0s;
+}
+
+.nav-services a:hover {
+  color: #a1a1a1;
+}
+
+.fixed-top.scrolled {
+  background-color: #1A1A1A !important;
+  transition: background-color 200ms linear;
+}
+
+/* NLT HERO CONTENT */
+
+.nlt-hero {
+  height: 100vh;
+  background-image: url("../img/hero.gif");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+.nlt-hero-content {
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  transition: all 0.5s ease 0s;
+  color: #a1a1a1 !important;
+}
+
+.nav-button {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  color: white;
+  font-size: 15px;
+  font-family: 'Nunito';
+  font-weight: 300;
+  padding: 6px 40px 6px 40px !important;
+  border: solid white 1px;
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+}
+
+.nav-button:hover {
+  background-color: white;
+  color: #1a1a1a !important;
+}
+
+.nlt-hero-content-cta {
+  height:82vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nlt-hero-content-cta p {
+  padding-bottom: 33px;
+}
+
+.nlt-hero-content-cta a {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  color: white ;
+  font-size: 17px;
+  font-family: 'Nunito';
+  font-weight: 300;
+  padding: 6px 40px 6px 40px !important;
+  border: solid white 1px;
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+}
+
+.nav-padding {
+  padding-right: 45px !important;
+}
+
+.nlt-hero-content-cta p {
+  font-weight: 300;
+  padding-top: 10px;
+}
+
+.bottom-hero {
+  padding-top: 33px;
+}
+
+.bottom-hero a {
+  color: white;
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: 300;
+  transition: all 0.5s ease 0s;
+}
+
+.bottom-hero a:hover {
+  color: #a1a1a1;
+}
+
+/* NLT ABOUT SECTION */
+
+.nlt-about {
+  background-color: white;
+  color: #1a1a1a;
+  height: 100vh;
+}
+
+.nlt-about-content {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.nlt-about-content p {
+  margin-bottom: 0;
+}
+
+.about-padding {
+  padding-top: 130px;
+}
+
+.nlt-about-content a {
+    text-decoration: underline;
+    color: #1A1A1A;
+    transition: all 0.5s ease 0s;
+    font-weight: 300;
+}
+
+.nlt-about-content a:hover {
+    text-decoration: underline;
+    color: #A1A1A1;
+}
+
+.about-extra {
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+/* NLT SERVICES SECTION */
+
+.nlt-services {
+  background-color: #1A1A1A;
+  color: white;
+}
+
+.nlt-services-content {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+table {
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #4F4F4F;
+    padding: 10px;
+}
+
+.rates-bottom {
+  padding-top: 33px;
+}
+
+.nlt-rates {
+  padding-top: 45px;
+}
+
+.nlt-car-name {
+  margin: 0;
+  color: #4f4f4f;
+}
+
+.nlt-car-name-2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.nlt-fleet-padding {
+  padding-top: 45px;
+}
+
+.nlt-fleet-padding .text-small {
+  padding-bottom: 29px;
+}
+
+.nlt-fleet {
+  transition: all 0.5s ease 0s;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #444444;
+}
+
+.nlt-fleet:hover {
+  background-color: #333333;
+    .mercedes-content {
+      display: inline-block;
+    }
+    .image-hundred {
+      -ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari */
+      transform: scale(1.1);
+      transition: all 0.5s ease 0s;
+    }
+}
+
+.table-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.mercedes-content {
+  display: none;
+  width: 100%;
+}
+
+.mercedes-content p {
+  margin: 0;
+  font-size: 12px;
+}
+
+/* NLT TESTIMONIALS SECTION */
+
+.nlt-testimonials {
+  background-color: white;
+  color: #1A1A1A;
+}
+
+.nlt-testimonials-content {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.testimonials-padding {
+  padding-bottom: 33px;
+}
+
+/* NLT NEWS SECTION */
+
+.nlt-news {
+  background-color: #1A1A1A;
+  color: white;
+}
+
+.nlt-news-content {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.news-title {
+  padding-top:17px;
+  padding-bottom: 17px;
+}
+
+.image-news-1 {
+  background-image: url("../img/news-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.image-news-2 {
+  background-image: url("../img/news-2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.news-link {
+  padding-top: 33px;
+}
+
+.nlt-news-content p {
+  margin-bottom: 0;
+}
+
+.nlt-news-content a {
+    text-decoration: underline;
+    color: white;
+    transition: all 0.5s ease 0s;
+    font-size: 15px;
+}
+
+.nlt-news-content a:hover {
+    text-decoration: underline;
+    color: #A1A1A1;
+}
+
+/* NLT RESERVATIONS SECTION */
+
+.nlt-reservations {
+  background-color: white;
+  color: #1A1A1A;
+}
+
+.nlt-reservations-content {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+input {
+  width: 100%;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid #1A1A1A;
+}
+
+.inquiry-button {
+  padding-top: 33px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: #1a1a1a;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Nunito';
+  font-weight: 300;
+}
+
+button:hover {
+  background-color: white;
+  border: none;
+  color: #a1a1a1;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Nunito';
+  font-weight: 300;
+}
+
+
+.reserve-bottom {
+  padding-top: 65px;
+}
+
+::placeholder {
+    color: #1A1A1A;
+    font-size: 20px;
+    font-family: 'Nunito';
+    font-weight: 300;
+}
+
+.padding-form {
+  padding-top: 30px;
+}
+
+input, textarea {
+  font-family: 'Nunito';
+  font-weight: 300;
+  font-size: 20px;
+}
+
+
+/* NLT FOOTER SECTION */
+
+.nlt-footer {
+  background-color: #1A1A1A;
+  color: white;
+}
+
+.footer-bottom-right {
+  padding-top: 180px;
+}
+
+.nlt-footer p {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.link-big a {
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  text-decoration: underline;
+  transition: all 0.5s ease 0s;
+}
+
+.link-big a:hover {
+  color: #A1A1A1;
+}
+
+.link-small a {
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+  text-decoration: underline;
+  transition: all 0.5s ease 0s;
+}
+
+.link-small a:hover {
+  text-decoration: underline;
+  color: #A1A1A1;
+}
+
+.nlt-footer-content {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.footer-bottom {
+  padding-top: 200px;
+}
