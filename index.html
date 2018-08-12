@@ -52,7 +52,7 @@
       </div>
 
       <div class="col-md-2 hidden-sm-down nav-about">
-        <a class="text-emphasis about-scroll" href="#about-scroll-location">About Me</a>
+        <a class="text-emphasis about-scroll" href="#about-scroll">About Me</a>
       </div>
 
       <div class="col-md-2 col-sm-6 text-right nav-contact">
@@ -386,7 +386,7 @@
     </div>
   </div>
 
-  <div class="container-fluid about-index" id="about-scroll-location">
+  <div class="container-fluid about-index" id="about-scroll">
     <div class="row">
 
       <div class="col-xl-3 col-xs-12">
@@ -578,61 +578,18 @@ $("a[href='#scroll-to-top']").click(function() {
     return false;
 });
 
-/* Scroll to Works */
-$(".work-scroll").click(function(e) {
-    e.preventDefault();
-    var aid = $(this).attr("href");
-    $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
 });
-
-/* Scroll to About */
-$(".about-scroll").click(function(e) {
-    e.preventDefault();
-    var aid = $(this).attr("href");
-    $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
-});
-
-/* Scroll to Trouble of All Kinds */
-$(".toak-scroll").click(function(e) {
-    e.preventDefault();
-    var aid = $(this).attr("href");
-    $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
-});
-
-/* Scroll to Experience Hallyu */
-$(".experience-hallyu-scroll").click(function(e) {
-    e.preventDefault();
-    var aid = $(this).attr("href");
-    $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
-});
-
-/* Scroll to Fake News Zine */
-$(".fake-news-zine-scroll").click(function(e) {
-    e.preventDefault();
-    var aid = $(this).attr("href");
-    $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
-});
-
-/* Scroll to Less than 3 */
-$(".less-than-3-scroll").click(function(e) {
-    e.preventDefault();
-    var aid = $(this).attr("href");
-    $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
-});
-
-/* Scroll to Dundalk Bay Brewery */
-$(".dundalk-bay-brewery-scroll").click(function(e) {
-    e.preventDefault();
-    var aid = $(this).attr("href");
-    $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
-});
-
-/* Scroll to Dundalk Tourist Office */
-$(".dundalk-tourist-office-scroll").click(function(e) {
-    e.preventDefault();
-    var aid = $(this).attr("href");
-    $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
-});
+$('a[href*="#"]').on('click', function (e) {
+     e.preventDefault();
+     $('html, body').animate({
+     scrollTop: $($(this).attr('href')).offset().top
+     }, 500, 'linear');
+   });
 </script>
 
 </html>
