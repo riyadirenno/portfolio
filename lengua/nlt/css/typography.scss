@@ -1,0 +1,336 @@
+/* Navigational Bar */
+
+.nav-item {
+  color: white !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  margin-left: 30px;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-item:hover {
+  color: #e4d5ac !important;
+}
+
+/* Hero Content Center */
+
+h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.nlt-nav-button {
+  -webkit-border-radius: 60;
+   -moz-border-radius: 60;
+   border-radius: 60px;
+   color: #ffffff;
+   font-family: 'Montserrat';
+   font-weight: 200;
+   padding: 6px 40px 6px 40px !important;
+   border: solid #ffffff 1px;
+   text-decoration: none;
+   transition: all 0.5s ease 0s;
+}
+
+.nlt-nav-button:hover {
+  -webkit-border-radius: 60;
+   -moz-border-radius: 60;
+   border-radius: 60px;
+   color: #1a1a1a !important;
+   font-family: 'Montserrat';
+   font-weight: 200;
+   padding: 6px 40px 6px 40px !important;
+   background-color: #e4d5ac;
+   border: solid #e4d5ac 1px;
+   text-decoration: none;
+}
+
+.nlt-hero-cta {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  padding: 12px 40px 12px 40px;
+  border: solid #ffffff 1px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.nlt-hero-cta:hover {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  color: #1a1a1a;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  padding: 12px 40px 12px 40px;
+  background-color: #e4d5ac;
+  border: solid #e4d5ac 1px;
+  text-decoration: none;
+}
+
+/* About Section */
+
+.nlt-small-title {
+  font-size: 15px;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  color: white;
+}
+
+.nlt-content-emphasis {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 300;
+  color: white;
+}
+
+.nlt-content-small {
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.nlt-about-link {
+  padding-top: 40px;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  font-family:'Montserrat', sans-serif;
+}
+
+.nlt-about-link a {
+  text-decoration: underline;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+.nlt-about-link a:hover {
+  color: #e4d5ac;
+}
+
+/* Services */
+
+.services-link {
+  text-align: right;
+}
+
+.services-link a {
+  color: white !important;
+  text-decoration: underline;
+  font-weight: 200;
+  font-size: 15px;
+  transition: all 0.3s ease 0s;
+}
+
+.services-link a:hover {
+  color: #e4d5ac !important;
+  text-decoration: underline;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+/* Testimonials */
+
+.nlt-small-testi {
+  font-size: 15px;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  color: #1a1a1a;
+}
+
+.nlt-content-testi {
+  font-size: 25px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nlt-client-testi {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* News Section */
+
+.nlt-news-big {
+  color: white;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+.nlt-news-content {
+  color: white;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.nlt-news-anchor {
+  color: white ;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-decoration: underline;
+  transition: all 0.3s ease 0s;
+}
+
+.nlt-news-anchor:hover {
+  color: #e4d5ac ;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-decoration: underline;
+  transition: all 0.3s ease 0s;
+}
+
+/* Reservations */
+
+.nlt-reservations-content {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nlt-small-title-black {
+  font-size: 15px;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  color: #1a1a1a;
+}
+
+input {
+  width: 100%; }
+
+input[type=text] {
+  border: none;
+  border-bottom: 1px solid #1A1A1A; }
+
+  ::-webkit-input-placeholder {
+  color: #1A1A1A;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 300; }
+
+:-ms-input-placeholder {
+  color: #1A1A1A;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 300; }
+
+::-ms-input-placeholder {
+  color: #1A1A1A;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 300; }
+
+::placeholder {
+  color: #1A1A1A;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 300; }
+
+.padding-form {
+  padding-top: 30px; }
+
+input, textarea {
+  font-family: 'Nunito';
+  font-weight: 300;
+  font-size: 20px; }
+
+  button {
+  background-color: white;
+  border: none;
+  color: #1a1a1a;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Montserrat';
+  font-weight: 200; }
+
+button:hover {
+  background-color: white;
+  border: none;
+  color: #e4d5ac;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Montserrat';
+  font-weight: 200; }
+
+.inquiry-button {
+  padding-top: 40px;
+}
+
+
+/* Footer Section */
+
+.footer-right {
+  font-size: 20px;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+}
+
+.footer-right a {
+  text-decoration: underline;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+.footer-right a:hover {
+  color: #e4d5ac;
+}
+
+.footer-bottom {
+  padding-top: 200px;
+  color: white;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-bottom a {
+  color: white;
+  text-decoration: underline;
+  transition: all 0.3s ease 0s;
+}
+
+.footer-bottom a:hover {
+  color: #e4d5ac;
+}
+
+.footer-address {
+  text-align: right;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 170px;
+  padding-bottom: 70px;
+}
+
+.footer-address a {
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: underline;
+}
+
+.footer-address a:hover {
+  color: #e4d5ac;
+}
