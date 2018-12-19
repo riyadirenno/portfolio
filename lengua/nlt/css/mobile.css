@@ -54,6 +54,8 @@
     padding-bottom: 0 !important; }
   .nlt-read-more {
     margin-top: -25px; }
+  .img-about {
+    padding-bottom: 40px; }
   /* Our Services */
   .nlt-our-services-content {
     padding-top: 25px !important;
@@ -189,7 +191,11 @@
   .footer-bottom {
     font-size: 15px;
     text-align: center;
-    padding-top: 20px; } }
+    padding-top: 20px; }
+  .translate-mobile {
+    font-size: 15px;
+    text-align: center;
+    color: whitel; } }
 
 @media (min-width: 576px) and (max-width: 768px) {
   h1 {
@@ -226,6 +232,8 @@
     padding-top: 50px; }
   .nlt-about-content {
     padding-bottom: 0 !important; }
+  .img-about {
+    padding-bottom: 40px; }
   /* Our Services */
   .nlt-our-services-content {
     padding-top: 25px !important;
@@ -366,6 +374,8 @@
     margin-top: -25px; }
   .nlt-about-content {
     padding-bottom: 0 !important; }
+  .img-about {
+    padding-bottom: 40px; }
   /* Our Services */
   .nlt-our-services-content {
     padding-top: 25px !important;

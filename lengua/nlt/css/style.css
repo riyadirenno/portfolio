@@ -3,7 +3,7 @@
   color: white !important;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  font-size: 18px;
+  font-size: 15px;
   margin-left: 30px;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -503,7 +503,18 @@ button:hover {
   .footer-bottom {
     font-size: 15px;
     text-align: center;
-    padding-top: 20px; } }
+    padding-top: 20px; }
+  .translate-mobile {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-family: 'Montserrat'; }
+  .translate-mobile a {
+    color: white;
+    font-weight: 200;
+    text-decoration: underline;
+    font-family: 'Montserrat'; } }
 
 @media (min-width: 576px) and (max-width: 768px) {
   h1 {
@@ -627,6 +638,17 @@ button:hover {
     font-size: 15px;
     text-align: center;
     padding-top: 20px; }
+  .translate-mobile {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-family: 'Montserrat'; }
+  .translate-mobile a {
+    color: white;
+    font-weight: 200;
+    text-decoration: underline;
+    font-family: 'Montserrat'; }
   /* Our Fleet */
   .nlt-car-info {
     color: #1a1a1a;
@@ -650,6 +672,8 @@ button:hover {
     line-height: 0.5; } }
 
 @media (min-width: 768px) and (max-width: 992px) {
+  .nav-item a {
+    font-size: 15px !important; }
   h1 {
     font-size: 35px; }
   h2 {
@@ -769,6 +793,17 @@ button:hover {
     font-size: 15px;
     text-align: center;
     padding-top: 20px; }
+  .translate-mobile {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-family: 'Montserrat'; }
+  .translate-mobile a {
+    color: white;
+    font-weight: 200;
+    text-decoration: underline;
+    font-family: 'Montserrat'; }
   /* Our Fleet */
   .nlt-car-info {
     color: #1a1a1a;
@@ -965,3 +1000,15 @@ footer img {
 
 .nlt-footer-content {
   padding-top: 70px; }
+
+.translate-mobile {
+  font-size: 15px;
+  color: white;
+  font-weight: 300;
+  font-family: 'Montserrat'; }
+
+.translate-mobile a {
+  color: white;
+  font-weight: 200;
+  text-decoration: underline;
+  font-family: 'Montserrat'; }
