@@ -1,0 +1,86 @@
+@import "mobile.scss";
+@import "content.scss";
+@import "typography.scss";
+
+img {
+  width: 100%;
+  background-position: center;
+}
+
+nav {
+  padding-top: 18px !important;
+}
+
+footer {
+  background-color: #1f1f1f;
+  padding-top: 60px;
+}
+
+.nlt-content-reservation {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.nlt-content-hero {
+  height: 96vh;
+  position: relative;
+}
+
+.nlt-content-hero-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nlt-footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.nlt-footer-border {
+  border-bottom: 1px solid #3c3c3c;
+  height: 1px;
+  padding-top: 30px;
+}
+
+.nlt-image-logo {
+  height: 75px;
+  width: 150px;
+}
+
+.nlt-image-qr {
+  height: 80px;
+  width: 80px;
+}
+
+.nlt-content-translate {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #1f1f1f;
+}
+
+.nlt-content-hero-bottom {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+/* Navbar Customization */
+
+.navbar-light .navbar-toggler {
+  border-color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.nlt-form-padding {
+  padding-top: 18px;
+}
