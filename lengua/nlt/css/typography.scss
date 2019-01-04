@@ -396,3 +396,84 @@ background-color: #e4d5ac;
 .fab:hover {
   color: #e4d5ac;
 }
+
+/* Extras */
+
+.owl-nav {
+  padding-bottom: 30px;
+}
+
+.nlt-button-sponsorships {
+  padding: 0;
+  border: none;
+  background: none;
+  color: #1f1f1f;
+  font-family: 'Nunito Sans';
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: underline;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.nlt-button-sponsorships:hover {
+  color: #e4d5ac;
+}
+
+.nlt-sponsorship-text {
+  p {
+    color: white;
+    font-weight: 300;
+    font-family: 'Nunito Sans';
+    text-align: left !important;
+  }
+
+  a {
+    color: white;
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 12px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
+
+  a:hover {
+    color: #e4d5ac;
+  }
+}
+
+.nlt-services-link {
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Nunito Sans';
+  text-decoration: underline;
+  display: block;
+}
+
+.nlt-services-padding-link {
+  padding-top: 18px;
+}
+
+.nlt-button-showhide {
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Nunito Sans';
+  text-decoration: underline;
+  background: none;
+  border: none;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.nlt-button-showhide:hover {
+  color: #e4d5ac;
+}
+
+#nlt-services-all-video {
+  display: none;
+  padding-top: 42px;
+}

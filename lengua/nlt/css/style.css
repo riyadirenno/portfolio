@@ -63,6 +63,9 @@
       padding-top: 30px; }
       .nlt-content-grey .nlt-content-rates .nlt-small-text-rates {
         text-align: center; }
+  #nlt-services-all-video {
+    display: none;
+    padding-top: 30px !important; }
   /* NLT Content Testimonial */
   .nlt-content-testimonial {
     padding-top: 30px !important;
@@ -89,6 +92,16 @@
       font-size: 16px; }
     .nlt-content-sponsorships a {
       position: static !important; }
+  .nlt-testi-text-location {
+    padding-bottom: 0 !important; }
+  .owl-nav {
+    padding-bottom: 18px !important; }
+  .nlt-sponsorship-text p {
+    padding-top: 18px;
+    font-size: 16px;
+    padding-bottom: 18px; }
+  .nlt-sponsorship-text a {
+    position: static !important; }
   /* NLT Reservation Contact */
   .nlt-content-reservation {
     padding-top: 30px !important;
@@ -198,6 +211,9 @@
       padding-top: 30px; }
       .nlt-content-grey .nlt-content-rates .nlt-small-text-rates {
         text-align: center; }
+  #nlt-services-all-video {
+    display: none;
+    padding-top: 30px !important; }
   .nlt-content-testimonial {
     padding-top: 30px !important;
     padding-bottom: 30px !important; }
@@ -211,6 +227,16 @@
     padding-bottom: 18px !important; }
   .nlt-small-text-black {
     padding-bottom: 30px !important; }
+  .nlt-testi-text-location {
+    padding-bottom: 0 !important; }
+  .owl-nav {
+    padding-bottom: 18px !important; }
+  .nlt-sponsorship-text p {
+    padding-top: 18px;
+    font-size: 16px;
+    padding-bottom: 18px; }
+  .nlt-sponsorship-text a {
+    position: static !important; }
   /* NLT Content Sponsorships */
   .nlt-content-sponsorships {
     padding-top: 30px !important;
@@ -290,6 +316,12 @@
     background-color: #1f1f1f; }
   .nlt-content-fleet-top-1 {
     padding-top: 18px; }
+  .nlt-sponsorship-text p {
+    padding-top: 18px;
+    font-size: 16px;
+    padding-bottom: 18px; }
+  .nlt-sponsorship-text a {
+    position: static !important; }
   /* NLT Reservation Contact */
   .nlt-content-reservation {
     padding-top: 30px !important;
@@ -796,6 +828,74 @@ a {
 .fab:hover {
   color: #e4d5ac; }
 
+/* Extras */
+.owl-nav {
+  padding-bottom: 30px; }
+
+.nlt-button-sponsorships {
+  padding: 0;
+  border: none;
+  background: none;
+  color: #1f1f1f;
+  font-family: 'Nunito Sans';
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: underline;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; }
+
+.nlt-button-sponsorships:hover {
+  color: #e4d5ac; }
+
+.nlt-sponsorship-text p {
+  color: white;
+  font-weight: 300;
+  font-family: 'Nunito Sans';
+  text-align: left !important; }
+
+.nlt-sponsorship-text a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 300;
+  font-size: 12px;
+  bottom: 0;
+  right: 0;
+  position: absolute; }
+
+.nlt-sponsorship-text a:hover {
+  color: #e4d5ac; }
+
+.nlt-services-link {
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Nunito Sans';
+  text-decoration: underline;
+  display: block; }
+
+.nlt-services-padding-link {
+  padding-top: 18px; }
+
+.nlt-button-showhide {
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Nunito Sans';
+  text-decoration: underline;
+  background: none;
+  border: none;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; }
+
+.nlt-button-showhide:hover {
+  color: #e4d5ac; }
+
+#nlt-services-all-video {
+  display: none;
+  padding-top: 42px; }
+
 img {
   width: 100%;
   background-position: center; }
@@ -808,9 +908,8 @@ footer {
   padding-top: 60px; }
 
 .nlt-content-reservation {
-  background-color: white;
-  padding-top: 60px;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  padding-top: 60px; }
 
 .nlt-content-hero {
   height: 96vh;
@@ -830,6 +929,10 @@ footer {
   border-bottom: 1px solid #3c3c3c;
   height: 1px;
   padding-top: 30px; }
+
+.nlt-reservation-border {
+  border-bottom: 1px solid #f4f4f4;
+  height: 1px; }
 
 .nlt-image-logo {
   height: 75px;
@@ -862,3 +965,15 @@ footer {
 
 .nlt-form-padding {
   padding-top: 18px; }
+
+.nlt-services-padding {
+  padding-bottom: 18px; }
+
+.nlt-services-video-content {
+  background-position: center;
+  background-image: url("../img/services/nlt-img-services-video-bg.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }

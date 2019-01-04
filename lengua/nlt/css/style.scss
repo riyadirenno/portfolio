@@ -17,9 +17,8 @@ footer {
 }
 
 .nlt-content-reservation {
-  background-color: white;
-  padding-top: 60px;
   padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .nlt-content-hero {
@@ -43,6 +42,11 @@ footer {
   border-bottom: 1px solid #3c3c3c;
   height: 1px;
   padding-top: 30px;
+}
+
+.nlt-reservation-border {
+  border-bottom: 1px solid #f4f4f4;
+  height: 1px;
 }
 
 .nlt-image-logo {
@@ -83,4 +87,21 @@ footer {
 
 .nlt-form-padding {
   padding-top: 18px;
+}
+
+.nlt-services-padding {
+  padding-bottom: 18px;
+}
+
+.nlt-services-video-content {
+  background-position: center;
+  background-image: url("../img/services/nlt-img-services-video-bg.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nlt-services-video-content-1 {
 }

@@ -89,6 +89,10 @@
         }
     }
   }
+  #nlt-services-all-video {
+    display: none;
+    padding-top: 30px !important;
+  }
   /* NLT Content Testimonial */
   .nlt-content-testimonial {
     padding-top: 30px !important;
@@ -125,6 +129,20 @@
     a {
       position: static !important;
     }
+  }
+  .nlt-testi-text-location {
+    padding-bottom: 0 !important;
+  }
+  .owl-nav {
+    padding-bottom: 18px !important;
+  }
+  .nlt-sponsorship-text p {
+    padding-top: 18px;
+    font-size: 16px;
+    padding-bottom: 18px;
+  }
+  .nlt-sponsorship-text a {
+    position: static !important;
   }
   /* NLT Reservation Contact */
   .nlt-content-reservation {
@@ -278,6 +296,10 @@
         }
     }
   }
+  #nlt-services-all-video {
+    display: none;
+    padding-top: 30px !important;
+  }
   .nlt-content-testimonial {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
@@ -295,6 +317,20 @@
   }
   .nlt-small-text-black {
     padding-bottom: 30px !important;
+  }
+  .nlt-testi-text-location {
+    padding-bottom: 0 !important;
+  }
+  .owl-nav {
+    padding-bottom: 18px !important;
+  }
+  .nlt-sponsorship-text p {
+    padding-top: 18px;
+    font-size: 16px;
+    padding-bottom: 18px;
+  }
+  .nlt-sponsorship-text a {
+    position: static !important;
   }
   /* NLT Content Sponsorships */
   .nlt-content-sponsorships {
@@ -406,6 +442,14 @@
   }
   .nlt-content-fleet-top-1 {
     padding-top: 18px
+  }
+  .nlt-sponsorship-text p {
+    padding-top: 18px;
+    font-size: 16px;
+    padding-bottom: 18px;
+  }
+  .nlt-sponsorship-text a {
+    position: static !important;
   }
   /* NLT Reservation Contact */
   .nlt-content-reservation {
