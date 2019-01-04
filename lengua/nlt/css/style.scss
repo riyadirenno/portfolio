@@ -1,86 +1,141 @@
 @import "mobile.scss";
-@import "content.scss";
-@import "typography.scss";
+
+body {
+  background-color: black;
+  font-family: 'Helvetica-Neue', Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: white;
+}
 
 img {
   width: 100%;
-  background-position: center;
 }
 
-nav {
-  padding-top: 18px !important;
+a {
+  color: white;
+  text-decoration: underline;
+  transition: all 0.5s ease 0s
 }
 
-footer {
-  background-color: #1f1f1f;
-  padding-top: 60px;
+a:hover {
+  color: #6DC4CD;
 }
 
-.nlt-content-reservation {
-  background-color: white;
-  padding-top: 60px;
-  padding-bottom: 60px;
+.text-emphasis {
+  font-weight: 525;
 }
 
-.nlt-content-hero {
-  height: 96vh;
-  position: relative;
+.text-light {
+  font-weight: 300;
 }
 
-.nlt-content-hero-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.text-26px {
+  font-size: 24px;
+  line-height: 1.25;
 }
 
-.nlt-footer-bottom {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.span-content {
+  font-weight: 300;
 }
 
-.nlt-footer-border {
-  border-bottom: 1px solid #3c3c3c;
-  height: 1px;
-  padding-top: 30px;
+.container-fluid {
+  padding: 0;
 }
 
-.nlt-image-logo {
-  height: 75px;
-  width: 150px;
+.focus-mobile {
+  display: true;
 }
 
-.nlt-image-qr {
-  height: 80px;
-  width: 80px;
+/* Navigation Bar */
+
+.navigation-bar {
+  padding-top: 86px;
+  padding-left: 86px;
+  padding-right: 86px;
 }
 
-.nlt-content-translate {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  background-color: #1f1f1f;
+iframe {
+  margin-left: -1px;
 }
 
-.nlt-content-hero-bottom {
-  position: absolute;
-  bottom: 24px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
+/* Intro Index Section */
+
+.intro-index {
+  padding-top: 166px;
+  padding-left: 86px;
+  padding-right: 86px;
 }
 
-/* Navbar Customization */
+/* Focus Index Section */
 
-.navbar-light .navbar-toggler {
-  border-color: white;
+.focus-index {
+  padding-top: 64.5px;
+  padding-left: 86px;
+  padding-right: 86px;
 }
 
-.navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+/* Selected Work Section */
+.work-index {
+  padding-left: 86px;
+  padding-right: 86px;
 }
 
-.nlt-form-padding {
-  padding-top: 18px;
+.work-navigation {
+  z-index: 1;
+  float: left;
+  height: 150px;
+  padding-top: 64.5px;
+  padding-bottom: 170px;
+}
+
+.work-content {
+  float: right;
+}
+
+.work-content-mobile {
+  padding-left: 43px;
+  padding-right: 43px;
+  padding-top: 63px;
+}
+
+.project-section {
+  padding-top: 64.5px;
+}
+
+/* About Me Section */
+
+.about-index {
+  padding-top: 64.5px;
+  padding-left: 86px;
+  padding-right: 86px;
+}
+
+/* Documentation Section */
+
+.documentation-index {
+    padding-top: 64.5px;
+    padding-left: 86px;
+    padding-right: 86px;
+}
+
+/* Contact Section */
+
+.contact-index {
+    padding-top: 64.5px;
+    padding-left: 86px;
+    padding-right: 86px;
+}
+
+/* Footer Section */
+
+.footer {
+  padding-bottom: 86px;
+  padding-top: 166px;
+  padding-left: 86px;
+  padding-right: 86px;
+}
+
+.scroll-top-right {
+  text-align: right;
 }
