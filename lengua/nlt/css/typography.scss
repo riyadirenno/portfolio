@@ -379,3 +379,20 @@ background-color: #e4d5ac;
 .btn {
   padding: 0 !important;
 }
+
+.fab {
+  font-size: 24px;
+  color: white;
+  padding-top: 18px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.fa-facebook {
+  padding-right: 12px;
+}
+
+.fab:hover {
+  color: #e4d5ac;
+}

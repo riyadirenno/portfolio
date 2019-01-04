@@ -1,0 +1,864 @@
+/* Very Small Mobile Devices */
+@media (max-width: 575.98px) {
+  /* NLT Content Hero + Navigation */
+  .nlt-content-hero nav {
+    padding-top: 0px !important; }
+  .nlt-nav-translate {
+    display: none !important; }
+  .nlt-content-translate {
+    text-align: center !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important; }
+    .nlt-content-translate p {
+      padding-right: 6px !important; }
+    .nlt-content-translate a {
+      padding-right: 6px !important; }
+  .nlt-content-hero-center-1 {
+    font-size: 30px !important;
+    line-height: 42px !important; }
+  .nlt-content-hero-center-2 {
+    font-size: 16px !important; }
+  .navbar-expand-lg {
+    background-color: #1f1f1f; }
+  .nav-link {
+    text-align: center !important; }
+  .navbar-nav .nav-item {
+    padding-right: 0px !important; }
+  .nlt-button-nav {
+    color: #ffffff !important;
+    font-family: 'Nunito Sans';
+    padding: 0 !important;
+    border: none !important; }
+  /* NLT Content Grey */
+  .nlt-content-grey {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
+    .nlt-content-grey .nlt-small-text {
+      padding-bottom: 30px !important; }
+    .nlt-content-grey .nlt-big-text-1 {
+      font-size: 16px; }
+    .nlt-content-grey .nlt-big-text-2 {
+      font-size: 16px; }
+    .nlt-content-grey .nlt-content-padding-bottom {
+      padding-bottom: 30px; }
+    .nlt-content-grey .nlt-content-services-video p {
+      font-size: 16px; }
+    .nlt-content-grey .nlt-content-fleet {
+      padding-top: 30px; }
+    .nlt-content-grey .nlt-small-text-fleet {
+      padding-top: 18px; }
+    .nlt-content-grey .nlt-content-fleet-padding {
+      padding-bottom: 12px; }
+    .nlt-content-grey table {
+      letter-spacing: 0;
+      color: white;
+      font-size: 12px;
+      font-weight: 300;
+      border-collapse: collapse;
+      width: 100%; }
+    .nlt-content-grey table, .nlt-content-grey th, .nlt-content-grey td {
+      border: 1px solid #4F4F4F;
+      padding: 18px; }
+    .nlt-content-grey .nlt-content-rates {
+      padding-top: 30px; }
+      .nlt-content-grey .nlt-content-rates .nlt-small-text-rates {
+        text-align: center; }
+  /* NLT Content Testimonial */
+  .nlt-content-testimonial {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
+  .nlt-testi-text-big {
+    font-size: 18px !important;
+    padding-bottom: 18px !important; }
+  .nlt-text-name {
+    font-size: 16px; }
+  .nlt-testi-text-location {
+    font-size: 12px;
+    padding-bottom: 18px !important; }
+  .nlt-small-text-black {
+    padding-bottom: 30px !important; }
+  /* NLT Content Sponsorships */
+  .nlt-content-sponsorships {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
+    .nlt-content-sponsorships .nlt-small-text {
+      padding-top: 30px;
+      padding-bottom: 30px !important; }
+    .nlt-content-sponsorships .nlt-big-text-1 {
+      padding-bottom: 30px !important;
+      font-size: 16px; }
+    .nlt-content-sponsorships a {
+      position: static !important; }
+  /* NLT Reservation Contact */
+  .nlt-content-reservation {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
+  .nlt-form-required {
+    text-align: center; }
+  .nlt-form-mobile {
+    text-align: center !important;
+    padding-top: 24px; }
+  /* NLT Footer Content */
+  footer {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
+    footer .nlt-footer-content-display-web {
+      display: none; }
+    footer .nlt-footer-logo-mobile {
+      text-align: center !important; }
+    footer .nlt-footer-content-display-mobile {
+      display: block; }
+    footer .nlt-big-text-email {
+      font-size: 16px;
+      text-align: center !important;
+      padding-top: 30px; }
+    footer .nlt-footer-padding-1 {
+      padding-top: 30px; }
+    footer .nlt-footer-link-padding-1 {
+      padding-top: 30px; }
+    footer .nlt-footer-language {
+      display: none !important; }
+    footer .nlt-footer-left p {
+      padding-right: 6px; }
+    footer .nlt-footer-left a {
+      padding-right: 6px; }
+    footer .nlt-footer-content-3 {
+      text-align: center !important;
+      padding-top: 30px; }
+    footer .nlt-footer-bottom {
+      padding-bottom: 0px !important; }
+    footer .nlt-footer-left {
+      text-align: center !important; }
+    footer .nlt-footer-right {
+      text-align: center !important;
+      padding-bottom: 0px !important; } }
+
+/* Mobile Devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nlt-content-hero nav {
+    padding-top: 0px !important; }
+  /* NLT Content Hero + Navigation */
+  .nlt-nav-translate {
+    display: none !important; }
+  .nlt-content-translate {
+    text-align: center !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important; }
+    .nlt-content-translate p {
+      padding-right: 6px !important; }
+    .nlt-content-translate a {
+      padding-right: 6px !important; }
+  .nlt-content-hero-center-1 {
+    font-size: 30px !important;
+    line-height: 42px !important; }
+  .nlt-content-hero-center-2 {
+    font-size: 16px !important; }
+  .navbar-expand-lg {
+    background-color: #1f1f1f; }
+  .nav-link {
+    text-align: center !important; }
+  .navbar-nav .nav-item {
+    padding-right: 0px !important; }
+  .nlt-button-nav {
+    color: #ffffff !important;
+    font-family: 'Nunito Sans';
+    padding: 0 !important;
+    border: none !important; }
+  /* NLT Content Grey */
+  .nlt-content-grey {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
+    .nlt-content-grey .nlt-small-text {
+      padding-bottom: 30px !important; }
+    .nlt-content-grey .nlt-big-text-1 {
+      font-size: 16px; }
+    .nlt-content-grey .nlt-big-text-2 {
+      font-size: 16px; }
+    .nlt-content-grey .nlt-content-padding-bottom {
+      padding-bottom: 30px; }
+    .nlt-content-grey .nlt-content-services-video p {
+      font-size: 16px; }
+    .nlt-content-grey .nlt-content-fleet {
+      padding-top: 30px; }
+    .nlt-content-grey .nlt-small-text-fleet {
+      padding-top: 18px; }
+    .nlt-content-grey .nlt-content-fleet-padding {
+      padding-bottom: 12px; }
+    .nlt-content-grey table {
+      letter-spacing: 0;
+      color: white;
+      font-size: 12px;
+      font-weight: 300;
+      border-collapse: collapse;
+      width: 100%; }
+    .nlt-content-grey table, .nlt-content-grey th, .nlt-content-grey td {
+      border: 1px solid #4F4F4F;
+      padding: 18px; }
+    .nlt-content-grey .nlt-content-rates {
+      padding-top: 30px; }
+      .nlt-content-grey .nlt-content-rates .nlt-small-text-rates {
+        text-align: center; }
+  .nlt-content-testimonial {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
+  .nlt-testi-text-big {
+    font-size: 18px !important;
+    padding-bottom: 18px !important; }
+  .nlt-text-name {
+    font-size: 16px; }
+  .nlt-testi-text-location {
+    font-size: 12px;
+    padding-bottom: 18px !important; }
+  .nlt-small-text-black {
+    padding-bottom: 30px !important; }
+  /* NLT Content Sponsorships */
+  .nlt-content-sponsorships {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
+    .nlt-content-sponsorships .nlt-small-text {
+      padding-top: 30px;
+      padding-bottom: 30px !important; }
+    .nlt-content-sponsorships .nlt-big-text-1 {
+      padding-bottom: 30px !important;
+      font-size: 16px; }
+    .nlt-content-sponsorships a {
+      position: static !important; }
+  /* NLT Reservation Contact */
+  .nlt-content-reservation {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
+  .nlt-form-required {
+    text-align: center; }
+  .nlt-form-mobile {
+    text-align: center !important;
+    padding-top: 24px; }
+  /* NLT Footer Content */
+  footer {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
+    footer .nlt-footer-content-display-web {
+      display: none; }
+    footer .nlt-footer-logo-mobile {
+      text-align: center !important; }
+    footer .nlt-footer-content-display-mobile {
+      display: block; }
+    footer .nlt-big-text-email {
+      font-size: 16px;
+      text-align: center !important;
+      padding-top: 30px; }
+    footer .nlt-footer-padding-1 {
+      padding-top: 30px; }
+    footer .nlt-footer-link-padding-1 {
+      padding-top: 30px; }
+    footer .nlt-footer-content-3 {
+      text-align: center !important;
+      padding-top: 30px; }
+    footer .nlt-footer-language {
+      display: none !important; }
+    footer .nlt-footer-left p {
+      padding-right: 6px; }
+    footer .nlt-footer-left a {
+      padding-right: 6px; }
+    footer .nlt-footer-content-3 {
+      text-align: center !important;
+      padding-top: 30px; }
+    footer .nlt-footer-bottom {
+      padding-bottom: 0px !important; }
+    footer .nlt-footer-left {
+      text-align: center !important; }
+    footer .nlt-footer-right {
+      text-align: center !important;
+      padding-bottom: 0px !important; } }
+
+/* Tablet Devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nlt-content-hero nav {
+    padding-top: 0px !important; }
+  .nav-link {
+    text-align: center !important; }
+  .navbar-nav .nav-item {
+    padding-right: 0px !important; }
+  .nlt-button-nav {
+    color: #ffffff !important;
+    font-family: 'Nunito Sans';
+    padding: 0 !important;
+    border: none !important; }
+  /* NLT Content Grey */
+  .nlt-modal-top p {
+    font-size: 16px !important; }
+  .navbar-expand-lg {
+    background-color: #1f1f1f; }
+  .nlt-content-fleet-top-1 {
+    padding-top: 18px; }
+  /* NLT Reservation Contact */
+  .nlt-content-reservation {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
+  .nlt-form-required {
+    text-align: center; }
+  .nlt-form-mobile {
+    text-align: center !important;
+    padding-top: 24px; }
+  /* NLT Content Sponsorships */
+  .nlt-content-sponsorships .nlt-small-text {
+    padding-top: 30px;
+    padding-bottom: 30px !important; }
+  .nlt-content-sponsorships .nlt-big-text-1 {
+    padding-bottom: 30px !important;
+    font-size: 16px; }
+  .nlt-content-sponsorships a {
+    position: static !important; }
+  /* NLT Content Footer */
+  .nlt-footer-language {
+    display: none !important; } }
+
+/* Desktop Devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* NLT Content Sponsorships */
+  .nlt-content-sponsorships .nlt-big-text-1 {
+    font-size: 16px; } }
+
+/* NLT Content Grey */
+.nlt-content-grey {
+  background-color: #1f1f1f;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.modal video {
+  width: 100%; }
+
+.nlt-content-services-video {
+  border: 1px #3c3c3c solid; }
+
+.nlt-content-padding-bottom {
+  padding-bottom: 42px; }
+
+/* NLT Content Services */
+.nlt-content-fleet-box {
+  border: 1px solid #3c3c3c; }
+
+.nlt-modal-top {
+  padding-top: 18px; }
+
+.nlt-modal-bottom {
+  padding-top: 30px;
+  padding-bottom: 18px; }
+
+/* NLT Content Our Fleet */
+.nlt-content-fleet {
+  padding-top: 42px; }
+
+.nlt-content-fleet-top-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.nlt-content-fleet-padding {
+  padding-top: 18px;
+  padding-bottom: 18px; }
+
+.nlt-fleet-icons {
+  height: 60px;
+  width: 30px; }
+
+.nlt-fleet-icons-2 {
+  height: 60px;
+  width: 25px; }
+
+.nlt-fleet-icon-position {
+  position: absolute;
+  bottom: 0;
+  right: 6; }
+
+.nlt-fleet-detail-padding {
+  padding-bottom: 18px; }
+
+.nlt-fleet-detail {
+  display: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+
+.nlt-fleet-detail-hover:hover {
+  cursor: pointer; }
+  .nlt-fleet-detail-hover:hover .nlt-fleet-detail {
+    display: block;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+
+/* NLT Content Rates */
+.nlt-content-rates {
+  padding-top: 42px; }
+
+table {
+  letter-spacing: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  border-collapse: collapse;
+  width: 100%; }
+
+table, th, td {
+  border: 1px solid #4F4F4F;
+  padding: 18px; }
+
+/* NLT Content Testimonial */
+.nlt-content-testimonial {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+/* NLT Content Sponsorships */
+.nlt-content-sponsorships {
+  background-color: #1f1f1f;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+/* NLT Content Reservation */
+/* NLT Footer Content */
+.nlt-footer-content-display-mobile {
+  display: none; }
+
+/* Global Typography Settings */
+p {
+  margin: 0; }
+
+a {
+  font-family: 'Nunito Sans';
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+
+.nlt-small-text {
+  font-size: 12px;
+  color: white;
+  font-weight: 300;
+  font-family: 'Nunito Sans'; }
+
+.nlt-small-text-black {
+  font-size: 12px;
+  color: #1f1f1f;
+  font-weight: 300;
+  font-family: 'Nunito Sans';
+  padding-bottom: 60px; }
+
+.nlt-small-text-black-form {
+  font-size: 12px;
+  color: #1f1f1f;
+  font-weight: 300;
+  font-family: 'Nunito Sans'; }
+
+.nlt-small-text-fleet {
+  font-size: 12px;
+  color: white;
+  font-weight: 300;
+  font-family: 'Nunito Sans'; }
+
+.nlt-small-text-rates {
+  font-size: 12px;
+  color: white;
+  font-weight: 300;
+  font-family: 'Nunito Sans'; }
+
+.nlt-big-text-1 {
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  font-family: 'Nunito Sans'; }
+
+.nlt-big-text-2 {
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+  font-family: 'Nunito Sans'; }
+
+/* NLT Content Navigation Bar */
+.nlt-link-nav {
+  color: white !important;
+  font-weight: 300;
+  font-family: 'Nunito Sans';
+  font-size: 16px; }
+
+.nlt-button-nav {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  color: #ffffff !important;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  padding: 6px 40px 6px 40px !important;
+  border: solid white 1px;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; }
+
+.nav-item {
+  padding-right: 42px !important; }
+
+.nlt-content-hero-bottom a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 300;
+  font-family: 'Nunito Sans';
+  font-size: 16px; }
+
+.nlt-content-hero-center-1 {
+  color: white;
+  font-weight: 400;
+  font-family: 'Nunito Sans';
+  font-size: 42px;
+  line-height: 48px; }
+
+.nlt-content-hero-center-2 {
+  color: white;
+  font-weight: 300;
+  font-family: 'Nunito Sans';
+  font-size: 18px;
+  padding-bottom: 30px; }
+
+.nlt-button-hero {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  color: #ffffff !important;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  padding: 6px 40px 6px 40px !important;
+  border: solid white 1px;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; }
+
+/* NLT Misc */
+.nlt-footer-text {
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+  font-family: 'Nunito Sans'; }
+
+.nlt-footer-link {
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+  font-family: 'Nunito Sans';
+  text-decoration: underline;
+  display: inline-block; }
+
+.nlt-footer-padding-1 {
+  padding-top: 60px; }
+
+.nlt-footer-padding-2 {
+  padding-top: 30px; }
+
+.nlt-footer-padding-3 {
+  padding-top: 30px; }
+
+.nlt-footer-link-padding-1 {
+  padding-top: 60px; }
+
+.nlt-footer-link-padding-2 {
+  padding-top: 30px; }
+
+.nlt-footer-link-padding-3 {
+  padding-top: 30px; }
+
+.nlt-button-video {
+  padding: 0;
+  border: none;
+  background: none;
+  color: white;
+  font-family: 'Nunito Sans';
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: underline;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; }
+
+.nlt-button-video:hover {
+  color: #e4d5ac; }
+
+.modal .modal-content {
+  background-color: #1f1f1f; }
+
+.modal .modal-header {
+  border-bottom: 1px solid #3c3c3c; }
+
+.modal .modal-title {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Nunito Sans';
+  color: white; }
+
+.modal .close {
+  color: white; }
+
+/* NLT Content Services */
+.nlt-content-services-video p {
+  color: white;
+  font-family: 'Nunito Sans';
+  font-weight: 400;
+  font-size: 18px; }
+
+/* NLT Content Fleet */
+.nlt-fleet-small-text {
+  font-size: 10px;
+  color: white;
+  font-weight: 300;
+  font-family: 'Nunito Sans'; }
+
+.nlt-fleet-small-padding {
+  padding-bottom: 24px; }
+
+.nlt-fleet-small-padding-2 {
+  padding-bottom: 39px; }
+
+.nlt-fleet-big-text {
+  font-size: 12px;
+  color: white;
+  font-weight: 400;
+  font-family: 'Nunito Sans'; }
+
+/* NLT Testimonials Content */
+.nlt-testi-text-big {
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  font-family: 'Nunito Sans'; }
+
+.nlt-text-name {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Nunito Sans'; }
+
+.nlt-testi-text-location {
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Nunito Sans';
+  padding-bottom: 30px; }
+
+/* NLT Content Sponsorships */
+.nlt-content-sponsorships .nlt-small-text {
+  padding-bottom: 45px; }
+
+.nlt-content-sponsorships a {
+  color: white;
+  text-decoration: underline;
+  font-size: 12px;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
+.nlt-content-sponsorships a:hover {
+  color: #e4d5ac; }
+
+/* Footer */
+.nlt-big-text-email {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  font-weigth: 300;
+  font-family: 'Nunito Sans';
+  text-decoration: underline; }
+
+.nlt-big-text-email a {
+  color: white; }
+
+.nlt-big-text-email a:hover {
+  color: #e4d5ac; }
+
+.nlt-small-qr {
+  font-size: 10px;
+  color: white;
+  font-weight: 'Nunito Sans';
+  font-weight: 200;
+  padding-top: 18px;
+  padding-bottom: 18px; }
+
+.nlt-footer-left p {
+  display: inline;
+  padding-right: 30px; }
+
+.nlt-footer-left a {
+  display: inline;
+  padding-right: 30px;
+  color: white;
+  text-decoration: underline; }
+
+.nlt-footer-link:hover {
+  color: #e4d5ac; }
+
+.nlt-footer-left {
+  color: white;
+  font-size: 12px;
+  font-family: 'Nunito Sans';
+  font-weight: 300; }
+
+.nlt-footer-right {
+  font-size: 12px;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Nunito Sans';
+  font-weight: 300; }
+
+.nlt-content-translate p {
+  display: inline;
+  color: white;
+  font-size: 12px;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  padding-right: 30px; }
+
+.nlt-content-translate a {
+  color: white;
+  font-size: 12px;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  text-decoration: underline;
+  padding-right: 30px; }
+
+.nlt-footer-left a:hover {
+  color: #e4d5ac; }
+
+/* Hover Effects */
+.nlt-content-translate a:hover {
+  color: #e4d5ac; }
+
+.nlt-link-nav:hover {
+  color: #e4d5ac !important; }
+
+.nlt-button-nav:hover {
+  color: white !important;
+  border: solid white 1px;
+  background-color: #e4d5ac; }
+
+.nlt-button-hero:hover {
+  color: white !important;
+  border: solid white 1px;
+  background-color: #e4d5ac;
+  text-decoration: none; }
+
+.nlt-content-hero-bottom a:hover {
+  color: #e4d5ac !important; }
+
+.nlt-form-button {
+  font-size: 12px;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  text-decoration: underline; }
+
+.nlt-form-button:hover {
+  font-size: 12px;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  text-decoration: underline;
+  color: #e4d5ac; }
+
+.form-control {
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  font-size: 18px;
+  padding: 0 !important;
+  border: none;
+  border-bottom: 1px solid #1f1f1f;
+  border-radius: 0 !important; }
+
+.col-form-label {
+  font-size: 14px;
+  font-family: 'Nunito Sans';
+  font-weight: 300; }
+
+.col-form-label-sm {
+  padding-top: 6px !important; }
+
+.btn {
+  padding: 0 !important; }
+
+.fab {
+  font-size: 24px;
+  color: white;
+  padding-top: 18px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+
+.fa-facebook {
+  padding-right: 12px; }
+
+.fab:hover {
+  color: #e4d5ac; }
+
+img {
+  width: 100%;
+  background-position: center; }
+
+nav {
+  padding-top: 18px !important; }
+
+footer {
+  background-color: #1f1f1f;
+  padding-top: 60px; }
+
+.nlt-content-reservation {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.nlt-content-hero {
+  height: 96vh;
+  position: relative; }
+
+.nlt-content-hero-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.nlt-footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.nlt-footer-border {
+  border-bottom: 1px solid #3c3c3c;
+  height: 1px;
+  padding-top: 30px; }
+
+.nlt-image-logo {
+  height: 75px;
+  width: 150px; }
+
+.nlt-image-qr {
+  height: 80px;
+  width: 80px; }
+
+.nlt-content-translate {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #1f1f1f; }
+
+.nlt-content-hero-bottom {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px; }
+
+/* Navbar Customization */
+.navbar-light .navbar-toggler {
+  border-color: white; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important; }
+
+.nlt-form-padding {
+  padding-top: 18px; }
