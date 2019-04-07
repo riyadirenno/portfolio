@@ -52,7 +52,7 @@ a:hover {
   .nav-bar {
     height: 7vh !important; }
   .nav-link-margin {
-    margin-top: -2px; }
+    margin-top: 2px !important; }
   .nav-link-right {
     padding-right: 30px !important; }
   .footer-links-mobile {
@@ -358,3 +358,13 @@ body {
 
 html.is-animating .transition-fade {
   opacity: 0; }
+
+.tp-video-play-button {
+  display: none !important; }
+
+.rev_slider video {
+  pointer-events: none; }
+
+.rev_slider video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none; }
