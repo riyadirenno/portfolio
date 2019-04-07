@@ -1,0 +1,264 @@
+// Navigation Layout Settings
+
+.nav-bar {
+  padding-top: 36px;
+  overflow: hidden;
+  z-index: 1;
+  height: 18vh;
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100% !important;
+  left: 20%;
+}
+
+.sticky + .about-me-top {
+  padding-top: 102px !important;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-time-bottom {
+  padding-top: 18px;
+}
+
+.nav-link-right {
+  padding-right: 60px;
+}
+
+// About Me Settings
+
+.about-me-top {
+  padding-top: 72px;
+}
+
+.about-me-bottom {
+  padding-top: 36px;
+  padding-bottom: 72px;
+}
+
+.about-me-padding {
+  padding-top: 18px;
+}
+
+.about-me-resume-padding {
+  padding-top: 36px;
+}
+
+// Filter Projects Settings
+
+.project-filter-top {
+  padding-bottom: 6px;
+}
+
+.button-filter {
+  color: $renno-white;
+  text-decoration: underline;
+  border: 0;
+  font-family: 'Courier New', monospace;
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+}
+
+.button-filter:hover {
+  color: $renno-blue;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.project-filter-div {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.button-filter-inner {
+  padding-top: 18px;
+  padding-right: 0;
+  border: none;
+  font-family: 'Courier New', monospace;
+  color: $renno-white;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.button-filter-inner:hover {
+  text-decoration: underline;
+  color: $renno-blue
+}
+
+.button-filter-inner.active {
+  text-decoration: underline;
+  color: $renno-white;
+}
+
+.padding-left-none {
+  padding-left: 0 !important;
+}
+
+.padding-right-none {
+  padding-right: 0 !important;
+}
+
+// Project Content Settings
+
+.project-filter-title {
+  padding-top: 12px;
+}
+
+.project-content-padding {
+  padding-top: 18px;
+}
+
+.project-filter-div {
+  padding-top: 18px;
+  padding-bottom: 9px;
+}
+
+.project-image-padding {
+  padding-top: 72px;
+  padding-bottom: 36px;
+}
+
+.project-image-padding-2 {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+// Contact Layout Settings
+
+.contact-me-top {
+  padding-top: 72px;
+  padding-bottom: 60px;
+}
+
+.contact-me-bottom {
+  padding-top: 36px;
+  padding-bottom: 72px;
+}
+
+// Project Overlay Settings
+
+.image-container-1, .image-container-2, .image-container-3, .image-container-4, .image-container-5, .image-container-6, .image-container-7, .image-container-8 {
+  position: relative;
+  width: auto;
+}
+
+.image-project-1, .image-project-2, .image-project-3, .image-project-4, .image-project-5, .image-project-6, .image-project-7, .image-project-8 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image-overlay-1, .image-overlay-2, .image-overlay-3, .image-overlay-4, .image-overlay-5, .image-overlay-6, .image-overlay-7, .image-overlay-8 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.image-container-1:hover .image-project-1 {
+  opacity: 0.3;
+}
+
+.image-container-1:hover .image-overlay-1 {
+  opacity: 1;
+}
+
+.image-container-2:hover .image-project-2 {
+  opacity: 0.3;
+}
+
+.image-container-2:hover .image-overlay-2 {
+  opacity: 1;
+}
+
+.image-container-3:hover .image-project-3 {
+  opacity: 0.3;
+}
+
+.image-container-3:hover .image-overlay-3 {
+  opacity: 1;
+}
+
+.image-container-4:hover .image-project-4 {
+  opacity: 0.3;
+}
+
+.image-container-4:hover .image-overlay-4 {
+  opacity: 1;
+}
+
+.image-container-5:hover .image-project-5 {
+  opacity: 0.3;
+}
+
+.image-container-5:hover .image-overlay-5 {
+  opacity: 1;
+}
+
+.image-container-6:hover .image-project-6 {
+  opacity: 0.3;
+}
+
+.image-container-6:hover .image-overlay-6 {
+  opacity: 1;
+}
+
+.image-container-7:hover .image-project-7 {
+  opacity: 0.3;
+}
+
+.image-container-7:hover .image-overlay-7 {
+  opacity: 1;
+}
+
+.image-container-8:hover .image-project-8 {
+  opacity: 0.3;
+}
+
+.image-container-8:hover .image-overlay-8 {
+  opacity: 1;
+}
+
+// Footer Layout Settings
+
+.footer-links {
+  padding-top: 72px;
+}
+
+.social-link-bottom {
+  padding-top: 18px;
+}
+
+.footer-copyright {
+  padding-top: 72px;
+  padding-bottom: 36px;
+}
