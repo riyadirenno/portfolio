@@ -1,0 +1,49 @@
+@media (max-width: 576px) {
+  .nav-bar {
+    height: 7vh !important;
+  }
+  .nav-link-margin {
+    margin-top: -2px;
+  }
+  .nav-link-right {
+    padding-right: 30px !important;
+  }
+  .footer-links-mobile {
+    text-align: right !important;
+  }
+  .footer-links-mobile-padding {
+    padding-top: 18px;
+  }
+  .about-me-reading-padding {
+    padding-top: 18px;
+  }
+  .footer-links-scroll-top {
+    text-align: center !important;
+    padding-top: 36px;
+  }
+  .footer-copyright {
+    padding-top: 36px !important;
+    text-align: center !important;
+  }
+  .footer-copyright-bottom {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-link-margin {
+    margin-top: -2px;
+  }
+  .nav-link-right {
+    padding-right: 30px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-link-margin {
+    margin-top: -2px;
+  }
+  .nav-link-right {
+    padding-right: 30px !important;
+  }
+}

@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Anderson Grotesk';
+    src: url('AndersonGroteskBold.woff2') format('woff2'),
+        url('AndersonGroteskBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anderson Grotesk';
+    src: url('AndersonGroteskRegular.woff2') format('woff2'),
+        url('AndersonGroteskRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+  margin: 0;
+  font-family: 'Anderson Grotesk', sans-serif;
+  font-size: 12px;
+  color: $renno-white;
+}
+
+a {
+  font-family: 'Anderson Grotesk', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  color: $renno-white;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+a:hover {
+  color: $renno-blue;
+}
+
+.renno-logo {
+  font-family: 'Anderson Grotesk', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.courier-type {
+  font-family: 'Courier New', monospace;
+}
+
+// About Typogoraphy Settings
+
+.renno-body {
+  font-size: 18px;
+}
+
+.renno-body a {
+  font-size: 18px;
+}
+
+// Project Typography Settings
+
+.renno-bold {
+  font-weight: bold;
+}
+
+// Footer Typography Settings
+
+.copyright-helvetica {
+  font-family: 'Helvetica', sans-serif;
+}

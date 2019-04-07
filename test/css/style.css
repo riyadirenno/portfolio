@@ -1,0 +1,327 @@
+@font-face {
+  font-family: 'Anderson Grotesk';
+  src: url("AndersonGroteskBold.woff2") format("woff2"), url("AndersonGroteskBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Anderson Grotesk';
+  src: url("AndersonGroteskRegular.woff2") format("woff2"), url("AndersonGroteskRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+p {
+  margin: 0;
+  font-family: 'Anderson Grotesk', sans-serif;
+  font-size: 12px;
+  color: #FFFFFF; }
+
+a {
+  font-family: 'Anderson Grotesk', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  color: #FFFFFF;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; }
+
+a:hover {
+  color: #6DC4CD; }
+
+.renno-logo {
+  font-family: 'Anderson Grotesk', sans-serif;
+  font-weight: bold;
+  text-decoration: none; }
+
+.courier-type {
+  font-family: 'Courier New', monospace; }
+
+.renno-body {
+  font-size: 18px; }
+
+.renno-body a {
+  font-size: 18px; }
+
+.renno-bold {
+  font-weight: bold; }
+
+.copyright-helvetica {
+  font-family: 'Helvetica', sans-serif; }
+
+@media (max-width: 576px) {
+  .nav-bar {
+    height: 7vh !important; }
+  .nav-link-margin {
+    margin-top: -2px; }
+  .nav-link-right {
+    padding-right: 30px !important; }
+  .footer-links-mobile {
+    text-align: right !important; }
+  .footer-links-mobile-padding {
+    padding-top: 18px; }
+  .about-me-reading-padding {
+    padding-top: 18px; }
+  .footer-links-scroll-top {
+    text-align: center !important;
+    padding-top: 36px; }
+  .footer-copyright {
+    padding-top: 36px !important;
+    text-align: center !important; }
+  .footer-copyright-bottom {
+    text-align: center !important; } }
+
+@media (max-width: 768px) {
+  .nav-link-margin {
+    margin-top: -2px; }
+  .nav-link-right {
+    padding-right: 30px !important; } }
+
+@media (max-width: 992px) {
+  .nav-link-margin {
+    margin-top: -2px; }
+  .nav-link-right {
+    padding-right: 30px !important; } }
+
+.nav-bar {
+  padding-top: 36px;
+  overflow: hidden;
+  z-index: 1;
+  height: 16vh;
+  background: black;
+  background: -moz-linear-gradient(180deg, black 0%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(180deg, black 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(180deg, black 0%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1); }
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100% !important;
+  left: 20%; }
+
+.sticky + .about-me-top {
+  padding-top: 102px !important; }
+
+li {
+  display: inline; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.nav-time-bottom {
+  padding-top: 18px; }
+
+.nav-link-right {
+  padding-right: 60px; }
+
+.about-me-top {
+  padding-top: 72px; }
+
+.about-me-bottom {
+  padding-top: 36px;
+  padding-bottom: 72px; }
+
+.about-me-padding {
+  padding-top: 18px; }
+
+.about-me-resume-padding {
+  padding-top: 36px; }
+
+.project-filter-top {
+  padding-bottom: 6px; }
+
+.button-filter {
+  color: #FFFFFF;
+  text-decoration: underline;
+  border: 0;
+  font-family: 'Courier New', monospace;
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent; }
+
+.button-filter:hover {
+  color: #6DC4CD; }
+
+.dropdown-content {
+  display: none; }
+
+.project-filter-div {
+  display: none; }
+
+.show {
+  display: block; }
+
+.button-filter-inner {
+  padding-top: 18px;
+  padding-right: 0;
+  border: none;
+  font-family: 'Courier New', monospace;
+  color: #FFFFFF;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent; }
+
+.button-filter-inner:hover {
+  text-decoration: underline;
+  color: #6DC4CD; }
+
+.button-filter-inner.active {
+  text-decoration: underline;
+  color: #FFFFFF; }
+
+.padding-left-none {
+  padding-left: 0 !important; }
+
+.padding-right-none {
+  padding-right: 0 !important; }
+
+.project-filter-title {
+  padding-top: 12px; }
+
+.project-content-padding {
+  padding-top: 18px; }
+
+.project-filter-div {
+  padding-top: 18px;
+  padding-bottom: 9px; }
+
+.contact-me-top {
+  padding-top: 72px;
+  padding-bottom: 60px; }
+
+.contact-me-bottom {
+  padding-top: 36px;
+  padding-bottom: 72px; }
+
+.image-container-1, .image-container-2, .image-container-3, .image-container-4, .image-container-5, .image-container-6, .image-container-7, .image-container-8 {
+  position: relative;
+  width: auto; }
+
+.image-project-1, .image-project-2, .image-project-3, .image-project-4, .image-project-5, .image-project-6, .image-project-7, .image-project-8 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.image-overlay-1, .image-overlay-2, .image-overlay-3, .image-overlay-4, .image-overlay-5, .image-overlay-6, .image-overlay-7, .image-overlay-8 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
+
+.image-container-1:hover .image-project-1 {
+  opacity: 0.3; }
+
+.image-container-1:hover .image-overlay-1 {
+  opacity: 1; }
+
+.image-container-2:hover .image-project-2 {
+  opacity: 0.3; }
+
+.image-container-2:hover .image-overlay-2 {
+  opacity: 1; }
+
+.image-container-3:hover .image-project-3 {
+  opacity: 0.3; }
+
+.image-container-3:hover .image-overlay-3 {
+  opacity: 1; }
+
+.image-container-4:hover .image-project-4 {
+  opacity: 0.3; }
+
+.image-container-4:hover .image-overlay-4 {
+  opacity: 1; }
+
+.image-container-5:hover .image-project-5 {
+  opacity: 0.3; }
+
+.image-container-5:hover .image-overlay-5 {
+  opacity: 1; }
+
+.image-container-6:hover .image-project-6 {
+  opacity: 0.3; }
+
+.image-container-6:hover .image-overlay-6 {
+  opacity: 1; }
+
+.image-container-7:hover .image-project-7 {
+  opacity: 0.3; }
+
+.image-container-7:hover .image-overlay-7 {
+  opacity: 1; }
+
+.image-container-8:hover .image-project-8 {
+  opacity: 0.3; }
+
+.image-container-8:hover .image-overlay-8 {
+  opacity: 1; }
+
+.footer-links {
+  padding-top: 72px; }
+
+.social-link-bottom {
+  padding-top: 18px; }
+
+.footer-copyright {
+  padding-top: 72px;
+  padding-bottom: 36px; }
+
+img {
+  width: 100%;
+  background-position: center;
+  display: block; }
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%; }
+
+body {
+  background-color: black; }
+
+.left {
+  text-align: left; }
+
+.right {
+  text-align: right; }
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+.justify {
+  text-align: justify; }
+
+.hidden-sm {
+  display: none; }
+
+.transition-fade {
+  transition: .4s;
+  opacity: 1; }
+
+html.is-animating .transition-fade {
+  opacity: 0; }
