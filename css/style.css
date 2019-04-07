@@ -54,6 +54,8 @@ a:hover {
     -webkit-appearance: none; }
   .tp-video-play-button {
     display: none !important; }
+  .nav-bar {
+    height: 50% !important; }
   .nav-link-margin {
     margin-top: 2px !important; }
   .nav-link-right {
