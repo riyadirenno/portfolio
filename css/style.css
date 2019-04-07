@@ -133,9 +133,7 @@ a:hover {
 
 .sticky {
   position: sticky;
-  top: 0;
-  width: 100% !important;
-  left: 20%; }
+  top: 0; }
 
 .sticky + .about-me-top {
   padding-top: 102px !important; }
