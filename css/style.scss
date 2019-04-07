@@ -71,15 +71,6 @@ html.is-animating .transition-fade{
 
 // Video Settings
 
-.tp-video-play-button {
-  display: none !important
-}
-
 .rev_slider video {
   pointer-events: none
-}
-
-.rev_slider video::-webkit-media-controls-start-playback-button {
-    display: none!important;
-    -webkit-appearance: none;
 }
