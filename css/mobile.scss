@@ -75,17 +75,6 @@
   .about-me-reading-padding {
     padding-top: 18px;
   }
-  .footer-links-scroll-top {
-    text-align: center !important;
-    padding-top: 36px;
-  }
-  .footer-copyright {
-    padding-top: 36px !important;
-    text-align: center !important;
-  }
-  .footer-copyright-bottom {
-    text-align: center !important;
-  }
   .about-me-top {
     padding-top: 48px !important;
   }
@@ -100,5 +89,22 @@
   }
   .nav-link-right {
     padding-right: 30px !important;
+  }
+  .footer-links-mobile {
+    text-align: right !important;
+  }
+  .footer-links-mobile-padding {
+    padding-top: 18px;
+  }
+  .footer-links-scroll-top {
+    text-align: center !important;
+    padding-top: 36px;
+  }
+  .footer-copyright {
+    padding-top: 36px !important;
+    text-align: center !important;
+  }
+  .footer-copyright-bottom {
+    text-align: center !important;
   }
 }
