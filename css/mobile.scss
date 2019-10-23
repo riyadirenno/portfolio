@@ -1,110 +1,62 @@
-@media (max-width: 576px) {
-  .rev_slider video::-webkit-media-controls-start-playback-button {
-      display: none!important;
-      -webkit-appearance: none;
+@media (max-width: 575.98px) {
+  h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 27.65px !important;
+    line-height: 39.81px !important;
+    margin: 0 !important;
+    font-weight: 700 !important;
   }
-  .about-me-padding-mobile {
-    padding-top: 18px !important;
+  .projects-hero {
+    padding-top: 39.81px !important;
+    padding-bottom: 39.81px !important;
   }
-  .tp-video-play-button {
-    display: none !important
+  .projects-media {
+    padding-top: 39.81px !important;
+    padding-bottom: 39.81px !important;
   }
-  .nav-bar {
-    height: 50% !important;
+  .projects-padding-content {
+    padding-top: 39.81px !important;
   }
-  .nav-link-margin {
-    margin-top: 2px !important;
+  .projects-hr {
+    padding-top: 39.81px !important;
+    padding-bottom: 39.81px !important;
   }
-  .nav-link-right {
-    padding-right: 30px !important;
-  }
-  .footer-links-mobile {
-    text-align: right !important;
-  }
-  .footer-links-mobile-padding {
-    padding-top: 18px;
-  }
-  .about-me-reading-padding {
-    padding-top: 18px;
-  }
-  .footer-links-scroll-top {
+  .projects-back {
+    padding-bottom: 27.65px !important;
     text-align: center !important;
-    padding-top: 36px;
-  }
-  .footer-copyright {
-    padding-top: 36px !important;
-    text-align: center !important;
-  }
-  .footer-copyright-bottom {
-    text-align: center !important;
-  }
-  .about-me-top {
-    padding-top: 48px !important;
-  }
-  .project-image-padding-2 {
-    padding-top: 16px !important;
-  }
-  .contact-me-top {
-    padding-bottom: 0 !important;
   }
 }
 
-@media (max-width: 768px) {
-  .rev_slider video::-webkit-media-controls-start-playback-button {
-      display: none!important;
-      -webkit-appearance: none;
+@media (max-width: 767px) {
+  h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px !important;
+    line-height: 27.65px !important;
+    margin: 0 !important;
   }
-  .about-me-padding-mobile {
-    padding-top: 18px !important;
-  }
-  .tp-video-play-button {
-    display: none !important
-  }
-  .nav-link-margin {
-    margin-top: -2px;
-  }
-  .nav-link-right {
-    padding-right: 30px !important;
-  }
-  .footer-links-mobile {
-    text-align: right !important;
-  }
-  .footer-links-mobile-padding {
-    padding-top: 18px;
-  }
-  .about-me-reading-padding {
-    padding-top: 18px;
-  }
-  .about-me-top {
-    padding-top: 48px !important;
-  }
-  .project-image-padding-2 {
-    padding-top: 16px !important;
-  }
-}
 
-@media (max-width: 992px) {
-  .nav-link-margin {
-    margin-top: -2px;
+  h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13.33px !important;
+    line-height: 23.04px !important;
+    margin: 0 !important;
   }
-  .nav-link-right {
-    padding-right: 30px !important;
+
+  .index-projects-padding-mobile {
+    padding-bottom:27.65px;
   }
-  .footer-links-mobile {
-    text-align: right !important;
+
+  /* Footer */
+  .footer-padding-mobile {
+    padding-top: 13.33px;
   }
-  .footer-links-mobile-padding {
-    padding-top: 18px;
+
+  .footer-social {
+    padding-top: 39.81px !important;
+    padding-bottom: 39.81px !important;
   }
-  .footer-links-scroll-top {
-    text-align: center !important;
-    padding-top: 36px;
-  }
-  .footer-copyright {
-    padding-top: 36px !important;
-    text-align: center !important;
-  }
-  .footer-copyright-bottom {
-    text-align: center !important;
+
+  .footer-bottom {
+    padding-bottom: 39.81px !important;
   }
 }

@@ -1,76 +1,48 @@
-@import "colours.scss";
 @import "typography.scss";
 @import "mobile.scss";
 @import "layout.scss";
 
-img {
-  width: 100%;
-  background-position: center;
+body {
+  background-color: #F3F4F8 !important;
 }
 
-.img-project-poster {
-  position: sticky;
+img {
+  height: 100%;
   width: 100%;
 }
 
 video {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  left: 0;
-  top: 0;
-  font-size: 100%;
+hr {
+  margin: 0 !important;
+  border-top: 1px solid #ECECF0 !important;
 }
 
-body {
-  background-color: black;
+.badge-projects {
+  background-color: #ECECF0;
+  color: black;
 }
 
-.left {
-  text-align: left;
+.navbar-nav .nav-link {
+  padding-left: 39.81px !important;
 }
 
-.right {
-  text-align: right;
+.navbar-nav {
+    flex-direction: row !important;
 }
 
-.center {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+.navbar-brand {
+  height: 57.33px;
+  width: 57.33px;
 }
 
-.justify {
-  text-align: justify;
+.instagram-media {
+  display: inline !important;
 }
 
-.hidden-sm {
-  display: none;
-}
-
-.transition-fade {
-    transition: .4s;
-    opacity: 1;
-}
-html.is-animating .transition-fade{
-    opacity: 0;
-}
-
-// Video Settings
-
-.rev_slider video {
-  pointer-events: none
+.index-projects-overlay:hover {
+  background-color: blue;
 }
