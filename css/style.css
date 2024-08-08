@@ -279,7 +279,7 @@ nav a {
   transition: transform 0.3s ease;
 }
 .additional-content-hero-section {
-  grid-area: 1 / 2 / 2 / 8;
+  grid-area: 1 / 2 / 2 / 10;
 }
 .hero-current-role {
   padding: 1.3em 0 1.3em 0;
